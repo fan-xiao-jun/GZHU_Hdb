@@ -1,0 +1,76 @@
+.content {
+    margin: 20px auto;/*margin 清除周围的（外边框）元素区域;auto 设置浏览器边距。*/
+    width: 1000px;
+    height: 563px;
+    /*background: #08ca6a;
+    background: deepskyblue;*/
+    background: white;
+
+    /*border-radius: 24px;/*圆角边框: border-radius 属性用于创建圆角*/
+    position: relative;/*position 属性指定了元素的定位类型; relative：相对定位元素的定位是相对其正常位置。*/
+}
+table
+{
+border: 1px solid black;
+word-break:break-all;/**/
+width:1000px;/**/
+table-layout: fixed;/*防止表格宽度拉伸。table-layout:fixed 表示：列宽由表格宽度和列宽度设定。在固定表格布局中，水平布局仅取决于表格宽度、列宽度、表格边框宽度、单元格间距，而与单元格的内容无关。*/
+}
+table .td-content {
+display: block;
+max-height: 42px;
+overflow: hidden;
+}
+tr
+{
+width:50px;
+}
+td
+{
+background-color:red;
+color:white;
+height:60px;
+}
+td.alt1
+{
+color:#000000;
+background: blue;
+/* background-color:yellow; */
+
+}
+td.alt2
+{
+color:#000000;
+background-color:white;
+}
+td.alt3
+{
+color:#000000;
+background-color:red;
+}
+.t
+{
+/*text-indent:2em;/*空两格*/
+text-align:center;/*居中*/
+}
+.t1
+{
+text-align:right;/*右对齐*/
+vertical-align:top;
+}
+.t2
+{
+text-align:left;/*左对齐*/
+vertical-align:top;
+}
+.Option{
+    text-indent:15em;/*空两格*/
+    text-align:left;/*居中*/
+}
+div.yichu{
+    /*background-color: lightblue;*/
+    margin: auto;
+    width: 800px;
+    height: 400px;
+    overflow: auto;/*如果内容被修剪，则浏览器会显示滚动条以便查看其余的内容。*/
+}

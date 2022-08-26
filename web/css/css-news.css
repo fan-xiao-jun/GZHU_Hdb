@@ -1,0 +1,65 @@
+.head{
+    width: 1000px auto;
+    height: 110px;
+    background: red;/*背景颜色*/
+    margin: 20px 10px;/*设置上边距和左边距*/
+}
+.title{
+    color:white;/*文本颜色*/
+    letter-spacing:10px;/*字符间距*/
+    text-indent:100px;/*文本前空格*/
+}
+.mainBody{
+    /*background: lightblue;*/
+    margin: 10px 10px;/*设置上边距和左边距*/
+}
+h3{
+    text-align:center;/*居中*/
+}
+.pictures{
+    float: left;
+}
+.box1{
+    width:70%;
+    float:left;
+    /*background-color: #008000;*/
+    text-indent:2em;/*空两格*/
+}
+.box2{
+    width:28%;
+    float:left;
+    /*background-color: #8A2BE2;*/
+    margin: 0px 0px 0px 10px ;
+}
+.box3{
+    /*height: 200px;
+    width:200px;*/
+    clear: both;
+    margin: 30px;
+    /*background-color: #FA8072;*/
+}
+
+.tab{
+    /*background: red;/*背景颜色*/
+    margin: 20px 10px;/*设置上边距和左边距*/
+    /*text-align:center;居中*/
+    position: relative;
+}
+td
+{
+    width:500px;
+    height:20px;
+    color: blue;
+}
+.box4{
+    height: 50px;
+    width: 600px;
+    text-align:center;/*居中*/
+}
+.box5{
+    height: 100px;
+    width: 600px;
+}
+.touxiang{
+    float: left;
+}

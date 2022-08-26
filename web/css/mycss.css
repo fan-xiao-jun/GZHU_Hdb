@@ -1,0 +1,77 @@
+.head{
+	width: 1000px auto;
+	height: 110px;
+	background: red;/*背景颜色*/
+	margin: 20px 10px;/*设置上边距和左边距*/
+}
+.title{
+	color:white;/*文本颜色*/
+	letter-spacing:10px;/*字符间距*/
+	text-indent:100px;/*文本前空格*/
+}
+.menu{/*菜单栏*/
+	width: 2000px auto;
+	height: 50px;
+	/*background: lightblue;/*背景颜色*/
+	background: rgb(223, 223, 220);/*背景颜色*/
+	margin: 20px 10px 0px 10px;/*设置上边距和左边距*/
+}
+.logo{
+	width: 50px;
+	height: 50px;
+	margin-top: 10px;
+	float: left;
+	margin: 10px;
+}
+.logo img{
+	/* line-height: 20px; */
+	width: 40px;
+	height: 40px;
+}
+.content{/*文字*/
+	width: 500px;
+	height: 35px;
+	margin: 5px;
+	/*background: bisque;*/
+	float: left;
+}
+.content ul{
+	list-style: none;/*去除列表格式*/
+}
+.content li{
+	list-style: none;/*去除列表格式*/
+	float: left;/*使列表排成一排*/
+	margin: 0 5px;/*上下间隔为0，左右间隔为5个像素*/
+	line-height: 100%;/*上下居中*/
+}
+.content li a {
+	text-decoration: none; /*去除超链接的下划线*/
+	color: black; /*超链接的字体颜色：黑色*/
+}
+.content li a:hover{
+	color: blue;/*使用hover动画，改变鼠标经过事件*/
+}
+
+
+.mainBody{
+	/*background: lightblue;*/
+	margin: 20px 10px;/*设置上边距和左边距*/
+}
+.mainBody h1 {
+	text-align:center;/*居中*/
+}
+
+.ahref{/*板块3*/
+	margin: 20px 10px 0px 810px;/*上、右、下、左*/
+	/*不可行float:right;*/
+}
+.pictures{/*板块4*/
+	float: left;
+}
+.paragraph{/*板块5*/
+	float:left;
+	color:brown;
+}
+
+
+
